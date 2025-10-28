@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { useProducts } from "../hooks/useProducts";
 import { ProductForm } from "../components/ProductForm";
 import type { Product } from "../contexts/ProductContext";
